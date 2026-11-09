@@ -10,7 +10,7 @@ Dette dokumentet beskriver hvordan jeg har satt opp et enkelt nettverk med en sw
 | PC1 | Klient-PC 2 | 192.168.1.11 | Statisk IP |
 
 ## Nettverksdiagram
-![Nettverksdiagram] (Screenshot 2026-11-09 193943.png)
+![Nettverksdiagram](Screenshot 2026-11-09 193943.png)
 
 ## Konfigurasjon
 Jeg har konfigurert begge PC-ene med IP-adresser i samme subnett (192.168.1.x), slik at de ligger i samme lokale nettverk.
