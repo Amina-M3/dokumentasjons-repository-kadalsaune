@@ -1,23 +1,23 @@
 # Kontornettverk – Cisco Packet Tracer
 
-Dette dokumentet beskriver hvordan jeg har satt opp et kontornettverk i Cisco Packet Tracer.
+Dette dokumentet beskriver hvordan jeg har satt opp et enkelt nettverk med en switch og to PC-er i Cisco Packet Tracer.
 
 ## Nettverksoversikt
 | Enhet | Rolle | IP-adresse | Kommentar |
 |-------|-------|------------|-----------|
-| Router0 | Kobler sammen nettverk | 192.168.1.1 | Gateway |
-| Switch0 | Kobler sammen enheter | - | - |
-| PC0 | Klient-PC | 192.168.1.10 | Får IP automatisk |
+| Switch0 | Kobler sammen enhetene | - | Sentralt bindeledd |
+| PC0 | Klient-PC 1 | 192.168.1.10 | Statisk IP |
+| PC1 | Klient-PC 2 | 192.168.1.11 | Statisk IP |
 
 ## Nettverksdiagram
-Nettverket er satt opp med en router, en switch og en PC.
+![Nettverksdiagram] (Screenshot 2026-11-09 193943.png)
 
 ## Konfigurasjon
-Jeg har konfigurert routerens grensesnitt med IP-adresse og sjekket at porten er slått på (no shutdown).
+Jeg har konfigurert begge PC-ene med IP-adresser i samme subnett (192.168.1.x), slik at de ligger i samme lokale nettverk.
 
 ## Testing
-- Forbindelsen mellom enhetene fungerer.
-- Ping-test er utført uten feil.
+- Ping-test er utført mellom PC0 og PC1.
+- Forbindelsen fungerer feilfritt.
 
 ## Oppsummering
-Jeg har lært å sette opp en grunnleggende nettverkstopologi og konfigurere IP-adresser i Cisco Packet Tracer.
+Jeg har lært å koble sammen enheter via en switch og sette statiske IP-adresser.
